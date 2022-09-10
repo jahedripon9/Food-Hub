@@ -1,11 +1,16 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
+import Disehs from '../Disehs/Disehs';
+import HeroSection from '../HeroSection/HeroSection';
 import Header from '../NavBar/Header';
 
 const Home = () => {
     return (
-        <div>
+        <Container>
             <Header />
-        </div>
+            <HeroSection />
+            <Disehs />
+        </Container>
     );
 };
 
