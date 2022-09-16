@@ -66,6 +66,7 @@ const DisehsAndDelivery = () => {
                         </div>
                     </div>
                 </div>
+                <Button>See All Menu</Button>
             </Container>
         </div>
     );

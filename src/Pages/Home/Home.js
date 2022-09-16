@@ -5,6 +5,7 @@ import HowtoOrder from '../HowtoOrder/HowtoOrder';
 import HeroSection from '../HeroSection/HeroSection';
 import Header from '../NavBar/Header';
 import DisehsAndDelivery from '../DisehsAndDelivery/DisehsAndDelivery';
+import DeliciousAndHealty from '../DeliciousAndHealty/DeliciousAndHealty';
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <Disehs />
             <HowtoOrder />
             <DisehsAndDelivery />
+            <DeliciousAndHealty />
         </Container>
     );
 };
